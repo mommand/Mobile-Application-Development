@@ -8,10 +8,7 @@
 <fullyQualifiedTypeName name="com.example.checkboxes.R.id"/>
 <fullyQualifiedTypeName name="com.example.checkbox.R.id"/>
 <fullyQualifiedTypeName name="android.widget.CheckBox"/>
-<fullyQualifiedTypeName name="android.widget.Button"/>
 <fullyQualifiedTypeName name="com.isd.checkboxes.R.id"/>
-<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
-<fullyQualifiedTypeName name="android.widget.Toast"/>
 <fullyQualifiedTypeName name="com.example.autoncomplet.R.id"/>
 <fullyQualifiedTypeName name="android.widget.ArrayAdapter"/>
 <fullyQualifiedTypeName name="android.R"/>
@@ -19,4 +16,15 @@
 <fullyQualifiedTypeName name="com.isd.autocomplete.R.id"/>
 <fullyQualifiedTypeName name="android.widget.AutoCompleteTextView"/>
 <fullyQualifiedTypeName name="android.graphics.Color"/>
+<fullyQualifiedTypeName name="com.isd.rate.R.id"/>
+<fullyQualifiedTypeName name="android.widget.RatingBar"/>
+<fullyQualifiedTypeName name="com.isd.ratingbar.R.id"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="com.isd.inentstest.R.id"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="android.net.Uri"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="com.isd.intentdemo.R.id"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
 </qualifiedTypeNameHistroy>
