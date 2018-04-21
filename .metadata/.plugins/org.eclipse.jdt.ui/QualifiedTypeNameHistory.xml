@@ -19,12 +19,13 @@
 <fullyQualifiedTypeName name="com.isd.rate.R.id"/>
 <fullyQualifiedTypeName name="android.widget.RatingBar"/>
 <fullyQualifiedTypeName name="com.isd.ratingbar.R.id"/>
-<fullyQualifiedTypeName name="android.widget.Toast"/>
 <fullyQualifiedTypeName name="com.isd.inentstest.R.id"/>
 <fullyQualifiedTypeName name="android.widget.EditText"/>
 <fullyQualifiedTypeName name="android.net.Uri"/>
 <fullyQualifiedTypeName name="android.widget.Button"/>
-<fullyQualifiedTypeName name="com.isd.intentdemo.R.id"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="android.view.MenuItem"/>
+<fullyQualifiedTypeName name="com.isd.intentdemo.R.id"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
 </qualifiedTypeNameHistroy>
