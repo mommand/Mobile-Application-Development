@@ -1,0 +1,48 @@
+package com.demo.toggle;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.Toast;
+import android.widget.ToggleButton;
+
+public class MainActivity extends Activity {
+    private ToggleButton toggleone, toggletwo;
+    private Button submitButton;
+    
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+public void addListenerOnButtonClick(){
+	toggleone = (ToggleButton)findViewById(R.id.toggleButton1);
+	toggletwo = (ToggleButton)findViewById(R.id.toggleButton2);
+	submitButton = (Button)findViewById(R.id.button1);
+	
+	submitButton.setOnClickListener(new OnClickListener(){
+
+		@Override
+		public void onClick(View view) {
+			// TODO Auto-generated method stub
+			StringBuilder result = new StringBuilder();
+			result.append("ToggleButton one:").append(toggleone.getText());
+			result.append("ToggleButton two:").append(toggletwo.getText());
+			
+			Toast.makeText(getApplicationContext(), result.toString(),Toast.LENGTH_LONG).show();
+		}
+		
+	});
+}
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+    
+}

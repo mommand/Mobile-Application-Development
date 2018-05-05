@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="com.isd.refer.R.id"/>
 <fullyQualifiedTypeName name="android.view.Gravity"/>
 <fullyQualifiedTypeName name="com.isd.toastmessage.R.id"/>
-<fullyQualifiedTypeName name="android.widget.ToggleButton"/>
 <fullyQualifiedTypeName name="com.isd.toggle.R.id"/>
 <fullyQualifiedTypeName name="com.example.checkboxes.R.id"/>
 <fullyQualifiedTypeName name="com.example.checkbox.R.id"/>
@@ -22,10 +21,15 @@
 <fullyQualifiedTypeName name="com.isd.inentstest.R.id"/>
 <fullyQualifiedTypeName name="android.widget.EditText"/>
 <fullyQualifiedTypeName name="android.net.Uri"/>
-<fullyQualifiedTypeName name="android.widget.Button"/>
-<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.content.Intent"/>
 <fullyQualifiedTypeName name="android.view.MenuItem"/>
 <fullyQualifiedTypeName name="com.isd.intentdemo.R.id"/>
+<fullyQualifiedTypeName name="com.demo.toast.R.id"/>
+<fullyQualifiedTypeName name="com.demo.switchb.R.id"/>
+<fullyQualifiedTypeName name="com.demo.toggle.R.id"/>
+<fullyQualifiedTypeName name="android.widget.ToggleButton"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="com.demo.togglebuttons.R.id"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.widget.Toast"/>
 </qualifiedTypeNameHistroy>
