@@ -1,0 +1,73 @@
+package com.demo.search;
+
+import java.util.ArrayList;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.SearchView;
+import android.widget.SearchView.OnQueryTextListener;
+import android.widget.Toast;  
+public class MainActivity extends Activity {
+	
+	 SearchView searchview;
+	 ListView listview;
+	 ArrayList<String> list;
+	 ArrayAdapter<String> adapter;
+	 
+	 
+	
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        
+        searchview = (SearchView)findViewById(R.id.searchView);
+        listview = (ListView)findViewById(R.id.lv1);
+        list = new ArrayList<String>();
+        list.add("Java");
+        list.add("Phyton");
+        list.add("PHP");
+        list.add("Rouby");
+        list.add("JavaScript");
+        list.add("JSP");
+        list.add("JSF");
+        
+        adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1);
+        listview.setAdapter(adapter);
+        
+        searchview.setOnQueryTextListener(new OnQueryTextListener(){
+
+			@Override
+			public boolean onQueryTextChange(String query) {
+				// TODO Auto-generated method stub
+				if(list.contains(query)){
+					adapter.getFilter().filter(query);
+				}
+				else{
+					Toast.makeText(getApplicationContext(), "No Data Found", Toast.LENGTH_LONG).show();
+				}
+				return false;
+			}
+
+			@Override
+			public boolean onQueryTextSubmit(String query) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+        	
+        });
+        
+        
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+    
+}
